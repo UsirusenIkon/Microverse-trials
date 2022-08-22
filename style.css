@@ -1,38 +1,38 @@
 /* Custom properties */
-:root{
-  --primary-color:  rgba(255, 255, 255, 0.0199);
-  --secondary-color:rgba(3, 3, 3, 0.215);
-  --text-color:rgba(240, 248, 255, 0.811);
+:root {
+  --primary-color: rgba(255, 255, 255, 0.0199);
+  --secondary-color: rgba(3, 3, 3, 0.215);
+  --text-color: rgba(240, 248, 255, 0.811);
   --background-color: rgba(13, 13, 13, 0.956);
 }
+
 /* css resets */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-img{
+img {
   height: 1.2rem;
 }
 
-body{
+body {
   background-color: var(--background-color);
   color: aliceblue;
-  font-family:  'Roboto', sans-serif;
 }
 
 /* header */
-.header{
+.header {
   background-color: var(--primary-color);
   position: fixed;
   width: 100%;
@@ -43,41 +43,47 @@ body{
   padding: 2px 1rem;
 }
 
-.home{
+.home {
   align-items: center;
   justify-content: space-between;
   width: 9em;
 }
 
-.hamburger{
+.hamburger {
   flex-direction: column;
 }
 
-i{
+i {
   width: 1rem;
   height: 1px;
   margin: 2px 0;
   background-color: aliceblue;
 }
 
-.utube-icon{
+.utube-icon {
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
 }
-.utube-icon img{
+
+.utube-icon img {
   height: 2rem;
 }
-sup{
+
+.frame {
+  border: 0;
+}
+
+sup {
   font-size: 10px;
   color: var(--text-color);
 }
 
-.form{
+.form {
   align-items: center;
-
 }
-.form > img{
+
+.form > img {
   border: none;
   background-color: var(--secondary-color);
   border-radius: 50%;
@@ -87,14 +93,15 @@ sup{
   height: 2rem;
 }
 
-.search-bar{
+.search-bar {
   border: 1px solid rgba(136, 133, 133, 0.247);
   background: var(--secondary-color);
   height: 2rem;
   width: 34.2em;
   justify-content: space-between;
 }
-.search-bar input{
+
+.search-bar input {
   background-color: var(--secondary-color);
   height: 2rem;
   width: 37em;
@@ -103,20 +110,22 @@ sup{
   outline: none;
   color: var(--text-color);
 }
-.search-bar button{
+
+.search-bar button {
   border: 0;
   background-color: rgba(136, 133, 133, 0.247);
   width: 3.5rem;
   height: 2rem;
 }
 
-.icon{
+.icon {
   list-style: none;
   align-items: center;
   justify-content: space-around;
   width: 9em;
 }
-.image{
+
+.image {
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
@@ -134,6 +143,7 @@ main {
 h4 {
   margin: 1rem 0;
 }
+
 .ratings {
   justify-content: space-between;
 }
@@ -163,11 +173,13 @@ h4 {
   gap: 6px;
   margin-bottom: 2rem;
 }
+
 .ads div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .ads span {
   font-size: smaller;
   display: block;
@@ -180,9 +192,11 @@ h4 {
   background-color: rgba(240, 248, 255, 0.425);
   margin-bottom: 1rem;
 }
+
 .line-items {
   justify-content: space-between;
 }
+
 .line-items li {
   border: none;
   border-radius: 10px;
@@ -195,6 +209,7 @@ h4 {
 .vids {
   margin: 3.5rem 0;
 }
+
 .vids img {
   height: 6rem;
   width: 11rem;
@@ -204,10 +219,12 @@ img[src="Resources/icons/icons8-options-50.png"] {
   height: 1rem;
   width: 1rem;
 }
+
 .vids div {
   gap: 8px;
   margin-bottom: 1rem;
 }
+
 .vids div div span {
   font-size: smaller;
   display: block;

@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="Resources/icons/icons8-youtube-48.png" type="image/icon type">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@500;700&family=Open+Sans:ital@1&family=Poppins&family=Roboto:wght@500&family=Tiro+Devanagari+Marathi:ital@1&display=swap" rel="stylesheet">
@@ -27,7 +26,7 @@
     <div class="form flex">
       <form action="https://www.youtube.com/results?search_query=" class="search-bar flex">
         <input type="text" placeholder="Search.." name="search">
-        <button><img src="resources/icons/icons8-search-50.png" alt="icons8-search-50"></button>
+        <button type="submit"><img src="resources/icons/icons8-search-50.png" alt="icons8-search-50"></button>
       </form>
       <img src="Resources/icons/icons8-microphone-48.png" alt="icons8-microphone-48"> 
     </div>
@@ -38,14 +37,13 @@
     </ul>
   </header>
   <main>
-    <section class="video-and-reviews">
+    <div class="video-and-reviews">
       <div>
-        <iframe
+        <iframe class="frame"
           width="770"
           height="425"
           src="https://www.youtube.com/embed/mTdMj57CW8c"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         >
@@ -55,7 +53,7 @@
         <h4>
           Most HUMILIATING Crossovers and Ankle Breakers of 2022 Season !
         </h4>
-        <span class="ratings flex">
+        <div class="ratings flex">
           <small>545,403 views . Jun 19, 2022</small>
           <ul class="video-icons flex">
             <li>
@@ -101,9 +99,9 @@
               />
             </li>
           </ul>
-        </span>
+        </div>
       </article>
-    </section>
+    </div>
     <section class="sidebar flex">
       <div class="ads flex">
         <img
@@ -119,7 +117,7 @@
               categories</span
             >
           </p>
-          <button>vist site</button>
+          <button type="sub">vist site</button>
         </div>
         <img
           src="Resources/icons/icons8-options-50.png"
